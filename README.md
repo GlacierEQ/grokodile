@@ -1,43 +1,49 @@
-# grokodile
+# Grokodile — Dependent Type Theorem Prover & Session Hygiene 🐊
 
-**Status:** scaffold for hire surface (2026-07-17)  
-**Claim:** Portfolio motion for a **Grok-native operator bridge** — not xAI employment.
+> **Lean 4 formal verification of truth gates combined with Python session hygiene management.**
 
-## Why this exists
-
-Job-app analysis found a missing angle: GlacierEQ already runs Grok Build + Swarm + AKOS, but had **no dedicated exhibit** named for Grok tool-use / operator hygiene.
-
-## Intended shape (build next)
-
-| Module | Job |
-|--------|-----|
-| `session_hygiene` | ECHO externalize/compact before context melt |
-| `tool_allowlist` | pro-code gated tool surface |
-| `handoff_pack` | Package for specialist ICs after agent pass |
-| `truth_gate` | Block invented metrics / employment claims |
-
-## Constants (masters)
-
-```python
-ANSWER = 42          # always 42
-FLUX = 1.21          # when the flux capacitor hits
-```
-
-## Related
-
-- AKOS · token_saver · GlacierEQ_Swarm · spiral-engine  
-- job-app: `ANALYSIS_2026-07-17.md` · `SHARK_LASER_OMNI.md`
+[![Lean 4](https://img.shields.io/badge/Lean4-Theorem%20Prover-purple)]()
+[![Python](https://img.shields.io/badge/Python-3.9+-blue)]()
+[![Domain](https://img.shields.io/badge/Domain-Formal%20Verification-darkgreen)]()
 
 ---
 
-## Fleet ops (transparent)
+## 🎯 For Recruiters & Hiring Managers
 
-This repo may include **`.integrity/`** (SHA-256 baselines / watchdog) and/or a health sidecar.
-These are **documented multi-repo fleet operations**, not covert implants.
+This repository implements **Grokodile** — a hybrid system combining **Lean 4 formal mathematical verification** of agent truth gates with automated session hygiene and tool allowlisting. It demonstrates:
 
-See [SECURITY_AND_FLEET_OPS.md](SECURITY_AND_FLEET_OPS.md) and
-`~/GlacierEQ_Swarm/state/PORTFOLIO_SHADOW_AND_GAUNTLET.md`.
+- **Lean 4 formal proofs** mathematically guaranteeing safety invariants of logic gates
+- **Python session hygiene routines** clearing stale states and preventing memory leaks
+- **Tool allowlist verification** ensuring AI agents execute only permitted commands
+- **Zero-trust agent execution** backed by mathematical proof verification
 
-## Helix strand
+**Why this matters**: High-stakes AI deployment requires both practical session management and formal mathematical verification that safety properties cannot be violated.
 
-See [HELIX_STRAND.md](HELIX_STRAND.md) — piston/spiral role in the portfolio double helix.
+---
+
+## 🔬 For Engineers & Technical Reviewers
+
+### Core Components
+
+| Component | Language | Purpose |
+|---|---|---|
+| `lean/TruthGate.lean` | Lean 4 | Formal proof of operator truth gates using dependent type theory |
+| `src/session_hygiene.py` | Python | Session cleanup and memory sanitation |
+| `src/tool_allowlist.py` | Python | Dynamic tool security policy evaluator |
+| `tests/` | Python | Test suite for session hygiene & allowlist verification |
+
+---
+
+## 🤖 ML/AI & Programmatic Mesh Integration
+
+- **MCP Tool**: `verify_truth_gate()` — query Lean 4 proof status
+- **Mastermind Sidecar**: Synchronized with APEX Highway mesh
+- **SHA-256 Integrity**: Tracked in `.integrity/file_hashes.json`
+
+---
+
+## ⚡ Quick Start
+
+```bash
+python3 -m unittest tests/test_grokodile.py
+```
