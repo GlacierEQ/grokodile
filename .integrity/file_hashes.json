@@ -1,7 +1,6 @@
 {
-  "repo": "grokodile",
-  "algorithm": "sha256",
-  "file_count": 9,
+  "repo_name": "grokodile",
+  "file_count": 12,
   "hashes": {
     "README.md": "52d6d141eaebfff5d69e44a03ea91cd2fab3018209d871587a12dd3a92ccbb5f",
     "EASTER_EGGS.md": "0c4fc58a6163b54497fc8327ec77f4293330eea4ba636e30db202836bd450900",
@@ -9,8 +8,11 @@
     "HELIX_STRAND.md": "1ae158447003bb8973c8e355cf57bd7dc00256efaeca9750ace70ed9e2af4577",
     "mastermind_sidecar.py": "2f73c39429125d04ab104ad2020fd02c87943617d56d160e2f7d51934f933de7",
     "SECURITY_AND_FLEET_OPS.md": "26141c0f07d95847d679de423ddb7bdee6f3e319d204383c89a58d6d3bb610c7",
-    "tests/test_grokodile.py": "e74eb082f31ed675aee5438595f6b8feca08c93c734e8111396c5cb2a5711c49",
+    "tests/test_grokodile.py": "7bc265bb47e9aca0e046bfb37f1694a5648420116debd166a80ba822b568ef68",
     ".github/workflows/ci.yml": "393542f8109cac2611d6ab41b8b062e6cc8be46894379568f15c0b7e2c1a639f",
+    "src/session_hygiene.py": "35006065d48b52e3faa83cb12a13d78a079ff1b8c085218a7a9890d966886257",
+    "src/tool_allowlist.py": "6f0c965b5a8c3f3a6e78af2066aba1f30d0c37c6d52d57dafd1666f22e475e2e",
+    "src/handoff_pack.py": "89f5710e94c81bcbad59dfd2b2ae8f703eade03e5ad459f07a66be6b00b635b1",
     "src/truth_gate.py": "850858e9d2a1858c29f40f3993b53c56bb72c80daa50c608861ba6d3e37fd4f4"
   }
 }
