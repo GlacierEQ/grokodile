@@ -1,0 +1,30 @@
+{
+  "schema": "glaciereq.operability-receipt.v1",
+  "repository": "GlacierEQ/grokodile",
+  "at": "2026-08-10T04:12Z",
+  "source_sha": "6fe0290fef1229fe5371b30ea723dafc581c43ee85e947b34d80e7672811bc92",
+  "entry": "scripts/operate.py",
+  "primary_output": {
+    "module": "session_hygiene",
+    "ok": true,
+    "repository": "GlacierEQ/grokodile",
+    "smoke": {
+      "args": [
+        "SessionState(session_id='sample_session_"
+      ],
+      "content_checked": true,
+      "invoked": true,
+      "kind": "fn",
+      "name": "compact_session",
+      "result": {
+        "compacted": false,
+        "remaining_tokens": 0,
+        "saved_tokens": 0,
+        "session_id": "sample_session_id",
+        "status": "COMPACTION_NOT_NEEDED"
+      }
+    }
+  },
+  "dual_run_ok": true,
+  "result": "PASS"
+}

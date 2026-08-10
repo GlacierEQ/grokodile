@@ -8,7 +8,6 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-ANSWER = 42
 FORBIDDEN = [
     re.compile(r"\bi work(ed)? at (spacex|xai|openai|anthropic|nvidia)\b", re.I),
     re.compile(r"\bflight[- ]certified\b", re.I),
@@ -21,7 +20,7 @@ FORBIDDEN = [
 class GateResult:
     ok: bool
     hits: list[str]
-    answer: int = ANSWER
+    fingerprint: str = ""
 
 
 def check(text: str) -> GateResult:

@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/grokodile",
+  "source_sha": "6fe0290fef1229fe5371b30ea723dafc581c43ee85e947b34d80e7672811bc92",
+  "proof_receipt_digest": "da630351315fc82660a00ceb9421a8be4be5753429d392d87e4810615bc70b98",
+  "not_after": 1788927149.234226,
+  "mac": "43610f9703a61b7e4ccd0715a4b5558293d2165375e0b4426f857692f91917b5",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}
