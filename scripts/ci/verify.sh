@@ -12,8 +12,7 @@ python -m compileall -q \
   src/handoff_pack.py \
   tests/test_grokodile.py \
   tests/test_public_truth.py
-python -m unittest -v tests.test_grokodile
-python -m pytest -q tests/test_public_truth.py
+python -m unittest -v tests.test_grokodile tests.test_public_truth
 
 python - <<'PY'
 import json
