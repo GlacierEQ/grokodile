@@ -2,21 +2,31 @@
   "schema": "glaciereq.repo-target-contract.v1",
   "identity": {
     "repository_id": "GlacierEQ/grokodile",
-    "family": "elite-estate"
+    "family": "operator-hygiene-portfolio"
   },
   "current": {
-    "state": "PROMOTED",
+    "state": "FUNCTIONAL_CANDIDATE",
     "implemented": true,
-    "tested": true,
-    "deployed": false
+    "tested_locally": true,
+    "deployed": false,
+    "lean_compiler_proof": false,
+    "operational_authority": false
   },
-  "nonclaims": [
-    "no employer affiliation",
-    "no production deployment without receipt"
+  "verified_scope": [
+    "deterministic forbidden-claim pattern gating",
+    "local tool-name allowlist classification without execution",
+    "deterministic caller-supplied session-budget compaction",
+    "caller-asserted handoff-envelope serialization",
+    "Lean theorem source retained without compiler-proof claim"
   ],
-  "donor_plan": {
-    "mode": "none",
-    "donors": []
-  },
-  "frozen_at": "2026-08-10T04:12Z"
+  "nonclaims": [
+    "no xAI affiliation, employment, endorsement, proprietary access, or Grok runtime access",
+    "no live Grok API, MCP, APEX, Mastermind, ECHO, or provider integration",
+    "no compiled Lean theorem proof or mathematically guaranteed agent safety",
+    "no OS/process sandbox or command-execution isolation",
+    "no real memory externalization, memory-leak prevention, or production context management",
+    "no independent verification of caller-supplied handoff flags",
+    "no production deployment or operational agent authority"
+  ],
+  "next_gate": "exact-current-head repository-native CI must prove the bounded Python mechanisms and public truth boundary"
 }

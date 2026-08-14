@@ -1,49 +1,46 @@
-# Grokodile — Dependent Type Theorem Prover & Session Hygiene 🐊
+# Grokodile — Local Truth-Gate & Operator-Hygiene Exhibit
 
-> **Lean 4 formal verification of truth gates combined with Python session hygiene management.**
+> **Independent GlacierEQ portfolio work. Not affiliated with, endorsed by, or employed by xAI.**
 
-[![Lean 4](https://img.shields.io/badge/Lean4-Theorem%20Prover-purple)]()
-[![Python](https://img.shields.io/badge/Python-3.9+-blue)]()
-[![Domain](https://img.shields.io/badge/Domain-Formal%20Verification-darkgreen)]()
+Grokodile demonstrates a small, local operator-safety toolkit in Python:
 
----
+- recruiter-facing claim screening against an explicit forbidden-pattern policy;
+- local tool-name allowlisting and fail-closed denial of unknown tools;
+- deterministic session-budget compaction from caller-supplied state;
+- explicit handoff-package serialization for caller-supplied verification state.
 
-## 🎯 For Recruiters & Hiring Managers
+## Verified Python mechanisms
 
-This repository implements **Grokodile** — a hybrid system combining **Lean 4 formal mathematical verification** of agent truth gates with automated session hygiene and tool allowlisting. It demonstrates:
+| Component | Purpose |
+|---|---|
+| `src/truth_gate.py` | Detect explicitly forbidden portfolio claims such as false employment, flight certification, unsupported 100% savings, and unsupported degree claims |
+| `src/tool_allowlist.py` | Allow or deny local tool names using an explicit caller-visible allowlist |
+| `src/session_hygiene.py` | Evaluate token-budget pressure and compact caller-supplied session state deterministically |
+| `src/handoff_pack.py` | Serialize caller-supplied handoff status and modified-file evidence into a stable local envelope |
+| `tests/test_grokodile.py` | Exercise allow/deny, compaction, handoff, and truth-gate behavior |
 
-- **Lean 4 formal proofs** mathematically guaranteeing safety invariants of logic gates
-- **Python session hygiene routines** clearing stale states and preventing memory leaks
-- **Tool allowlist verification** ensuring AI agents execute only permitted commands
-- **Zero-trust agent execution** backed by mathematical proof verification
+## Lean source boundary
 
-**Why this matters**: High-stakes AI deployment requires both practical session management and formal mathematical verification that safety properties cannot be violated.
+`lean/TruthGate.lean` is a **Lean source artifact**, not current formal-verification proof. The repository does not currently carry an exact-head Lean compiler receipt, so the public surface does not claim theorem compilation or a mathematically guaranteed safety property.
 
----
+## Evidence boundary
 
-## 🔬 For Engineers & Technical Reviewers
+`LOCAL_OPERATOR_HYGIENE_NOT_XAI_GROK_OR_AGENT_RUNTIME_AUTHORITY`
 
-### Core Components
+Current proof does **not** establish:
 
-| Component | Language | Purpose |
-|---|---|---|
-| `lean/TruthGate.lean` | Lean 4 | Formal proof of operator truth gates using dependent type theory |
-| `src/session_hygiene.py` | Python | Session cleanup and memory sanitation |
-| `src/tool_allowlist.py` | Python | Dynamic tool security policy evaluator |
-| `tests/` | Python | Test suite for session hygiene & allowlist verification |
+- xAI affiliation, employment, endorsement, proprietary access, or Grok-native runtime access;
+- a live Grok API, MCP tool, APEX Highway connection, Mastermind synchronization, ECHO runtime connection, or external provider integration;
+- Lean theorem compilation or formally verified agent safety;
+- OS/process sandboxing, command execution isolation, or zero-trust runtime enforcement;
+- memory-leak prevention, persistent memory externalization, or production context management;
+- independent verification of caller-supplied `tests_passed` or `sha256_verified` handoff fields;
+- production deployment, reliability, scale, or operational agent authority.
 
----
-
-## 🤖 ML/AI & Programmatic Mesh Integration
-
-- **MCP Tool**: `verify_truth_gate()` — query Lean 4 proof status
-- **Mastermind Sidecar**: Synchronized with APEX Highway mesh
-- **SHA-256 Integrity**: Tracked in `.integrity/file_hashes.json`
-
----
-
-## ⚡ Quick Start
+## Reproduce the verified scope
 
 ```bash
-python3 -m unittest tests/test_grokodile.py
+bash scripts/ci/verify.sh
 ```
+
+The repository-owned verifier runs only the canonical local mechanisms and public-boundary tests, then emits a bounded verification artifact for CI. This avoids treating unrelated legacy scaffolding lint as evidence for the operator toolkit.
