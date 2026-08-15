@@ -3,6 +3,7 @@
   "repository": "GlacierEQ/grokodile",
   "principal_state": "FUNCTIONAL_CANDIDATE",
   "state": "FUNCTIONAL_CANDIDATE",
+  "evidence_state": "IMPLEMENTED_CURRENT_HEAD_NATIVE_PROOF_REQUIRED",
   "operational_authority": false,
   "verified_scope": [
     "deterministic-portfolio-claim-pattern-gating",
