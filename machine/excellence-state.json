@@ -3,32 +3,56 @@
   "repository": "GlacierEQ/grokodile",
   "principal_state": "FUNCTIONAL_CANDIDATE",
   "state": "FUNCTIONAL_CANDIDATE",
-  "evidence_state": "IMPLEMENTED_CURRENT_HEAD_NATIVE_PROOF_REQUIRED",
-  "gates": {
-    "IDENTITY_RESOLVED": {"status": "PASS", "evidence": "github GlacierEQ/grokodile"},
-    "PROBLEM_VERIFIED": {"status": "PASS", "evidence": "local operator-hygiene portfolio exhibit"},
-    "TARGET_CONTRACT_FROZEN": {"status": "PASS", "evidence": "machine/target-contract.json"},
-    "CENTRAL_MECHANISM_PRESENT": {"status": "PASS", "evidence": "truth gate, tool allowlist, session compaction, handoff envelope"},
-    "LOCAL_DETERMINISTIC_PROOF": {"status": "PASS", "evidence": "tests/test_grokodile.py + tests/test_public_truth.py"},
-    "PUBLIC_TRUTH_BOUNDARY": {"status": "PASS", "evidence": "independent portfolio; no xAI/Grok runtime, Lean compiler, sandbox, live mesh, or production authority"},
-    "LEAN_COMPILER_PROOF": {"status": "PENDING", "evidence": "Lean source contains sorry and has no current compiler receipt"},
-    "EXACT_CURRENT_HEAD_NATIVE_PROOF": {"status": "PENDING"},
-    "CANONICAL_POSITION_RESOLVED": {"status": "PENDING"}
-  },
-  "verified_capabilities": [
+  "operational_authority": false,
+  "verified_scope": [
     "deterministic-portfolio-claim-pattern-gating",
     "local-tool-name-allowlist-classification",
     "deterministic-caller-session-budget-compaction",
     "caller-asserted-handoff-envelope-serialization",
     "lean-theorem-source-reference-not-compiled-proof"
   ],
+  "gates": {
+    "IDENTITY_RESOLVED": {
+      "status": "PASS",
+      "evidence": "README identifies an independent local operator-hygiene portfolio exhibit"
+    },
+    "CENTRAL_MECHANISM_PRESENT": {
+      "status": "PASS",
+      "evidence": "src/truth_gate.py, src/tool_allowlist.py, src/session_hygiene.py, and src/handoff_pack.py"
+    },
+    "PRIOR_EXACT_HEAD_PROOF": {
+      "status": "PASS",
+      "evidence": {
+        "head_sha": "313bd3ba4c9e50354db5b36c9636683832bf5c6d",
+        "workflow_run": 31767849704,
+        "conclusion": "success",
+        "scope": "repository-owned verification under pinned reusable CI with bounded proof artifact"
+      }
+    },
+    "PUBLIC_TRUTH_BOUNDARY": {
+      "status": "PASS",
+      "evidence": "independent portfolio; no xAI/Grok runtime, Lean compiler, sandbox, live mesh, external-memory, or production authority claim"
+    },
+    "LEAN_COMPILER_PROOF": {
+      "status": "PENDING",
+      "evidence": "Lean source remains a reference artifact and is excluded from admitted compiled-proof scope"
+    },
+    "DETERMINISTIC_PROOF_GREEN": {
+      "status": "PENDING_CANONICAL_CI",
+      "evidence": "machine-state and cross-version proof changes require fresh exact-current-head canonical proof"
+    },
+    "CANONICAL_POSITION_RESOLVED": {
+      "status": "PENDING"
+    }
+  },
   "nonclaims": [
-    "no xAI affiliation, employment, endorsement, proprietary access, or Grok runtime access",
-    "no live MCP, APEX, Mastermind, ECHO, or provider integration",
+    "no xAI affiliation employment endorsement proprietary access or Grok runtime access",
+    "no live MCP APEX Mastermind ECHO or provider integration",
     "no Lean compiler proof or mathematically guaranteed safety",
-    "no OS/process sandbox or command-execution isolation",
-    "no real memory externalization or production context management",
-    "no production deployment, reliability, scale, or operational authority"
+    "no OS process sandbox or command-execution isolation",
+    "no external-memory persistence or production context management",
+    "no independent verification of caller-supplied handoff assertions",
+    "no production deployment reliability scale or operational authority"
   ],
-  "evolution_cursor": "next:exact-current-head-native-proof-then-surface-admission"
+  "evolution_cursor": "fresh_exact_head_ci_then_surface_reconciliation"
 }
