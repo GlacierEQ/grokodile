@@ -4,8 +4,27 @@
     "local-tool-name-allowlist-classification",
     "deterministic-caller-session-budget-compaction",
     "caller-asserted-handoff-envelope-serialization",
-    "lean-theorem-source-reference-not-compiled-proof"
+    "lean-theorem-source-reference-not-compiled-proof",
+    "apex-mass-recovery-enrolled"
   ],
   "evidence_state": "LOCAL_OPERATOR_HYGIENE_NOT_XAI_GROK_OR_AGENT_RUNTIME_AUTHORITY",
-  "operational_authority": false
+  "operational_authority": false,
+  "recovery": {
+    "identity": "APEX_IS_THE_COUNTER_TO_CANONICAL_DESTRUCTION",
+    "law": "MAXIMUM_COHERENT_ADVANCE",
+    "program": "mass-job-repo-recovery",
+    "dual_plane": true
+  },
+  "planes": {
+    "verified": [
+      "deterministic-portfolio-claim-pattern-gating",
+      "local-tool-name-allowlist-classification",
+      "deterministic-caller-session-budget-compaction",
+      "caller-asserted-handoff-envelope-serialization",
+      "lean-theorem-source-reference-not-compiled-proof"
+    ],
+    "implemented": [
+      "apex-mass-recovery-enrolled"
+    ]
+  }
 }
