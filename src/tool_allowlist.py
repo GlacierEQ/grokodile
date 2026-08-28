@@ -3,6 +3,7 @@
 This module classifies caller-supplied names only. It does not execute tools or
 provide an OS/process sandbox.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field

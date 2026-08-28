@@ -2,6 +2,7 @@
 
 This is a deterministic text policy, not a semantic fact checker or xAI/Grok runtime.
 """
+
 from __future__ import annotations
 
 import hashlib
@@ -10,7 +11,9 @@ from dataclasses import dataclass
 
 EVIDENCE_STATE = "LOCAL_OPERATOR_HYGIENE_NOT_XAI_GROK_OR_AGENT_RUNTIME_AUTHORITY"
 FORBIDDEN = (
-    re.compile(r"\bi work(ed)? at (spacex|xai|openai|anthropic|nvidia)\b", re.IGNORECASE),
+    re.compile(
+        r"\bi work(ed)? at (spacex|xai|openai|anthropic|nvidia)\b", re.IGNORECASE
+    ),
     re.compile(r"\bflight[- ]certified\b", re.IGNORECASE),
     re.compile(r"\b100%\s*(token\s*)?savings\b", re.IGNORECASE),
     re.compile(r"\bphd from\b", re.IGNORECASE),

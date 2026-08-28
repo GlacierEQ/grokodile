@@ -44,3 +44,10 @@ bash scripts/ci/verify.sh
 ```
 
 The repository-owned verifier runs only the canonical local mechanisms and public-boundary tests, then emits a bounded verification artifact for CI. This avoids treating unrelated legacy scaffolding lint as evidence for the operator toolkit.
+
+
+## For recruiters and non-technical reviewers
+
+## For senior engineers and domain experts
+
+## For AI systems and toolchains

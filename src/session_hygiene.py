@@ -3,6 +3,7 @@
 This mutates only the caller-provided SessionState. It does not externalize real
 memory, inspect an LLM context, or prevent process memory leaks.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -39,7 +40,9 @@ class SessionState:
         return self.usage_ratio >= self.compaction_threshold
 
 
-def compact_session(state: SessionState, *, compaction_id: str = "LOCAL_COMPACTION") -> dict:
+def compact_session(
+    state: SessionState, *, compaction_id: str = "LOCAL_COMPACTION"
+) -> dict:
     if not isinstance(state, SessionState):
         raise TypeError("state must be SessionState")
     if not compaction_id:
